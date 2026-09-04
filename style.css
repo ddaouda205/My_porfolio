@@ -12,7 +12,31 @@
     margin: 0;
     padding: 0;
 }
+/*===== THEME SOUHAITER */
 
+#mode {
+  border: 1px;
+  border-radius: 15px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+* {
+  outline: 0;
+}
+
+.dark {
+  background-color: #112F41;
+  color: #ffffff;
+}
+
+.dark button {
+  background: #144098;
+  color: #fff;
+}
+
+
+/*corps du du portfolio */
 body {
     background: rgba(0, 0, 0, 0.2);
     font-family: sans-serif;
